@@ -278,7 +278,7 @@ if ($currentimage) {
         <h1>No Images Found</h1>
         <div class="alert alert-info">
             <p>Place images into an
-                <span class="label label-default">images</span>folder in the same directory as this script</p>
+                <span class="label label-default">images</span> folder in the same directory as this script</p>
             <p>Numerical filename prefixes can be used to sequence images, e.g.
                 <span class="label label-default">02 - myfile.png</span>
             </p>
