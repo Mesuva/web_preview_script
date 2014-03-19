@@ -1,6 +1,6 @@
 <?php
 // config
-$logopath  = '';
+$logopath  = ''; // use a url to an logo image, to place it in the top left.
 $projecttitle = ''; // enter a value here to force a project title
 $autonamefromfolder = true;  // if true and no project title is set, use parent folder name as project title
 $autoremovenumericalprefix = true;  // change to false if you want to keep prefixes like '05 - ' on your titles.
@@ -87,6 +87,7 @@ if ($request == '' || !$currentimage) {
  
 $currenttitle = $projecttitle . ($projecttitle ? ' - ' : '') . $currenthandle;
 
+$note = '';
 
 if ($currentimage) {
     $textfile = $handle = preg_replace("/\\.[^.\\s]{3,4}$/", "",basename($currentimage)). '.txt'; 
