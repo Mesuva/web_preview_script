@@ -47,7 +47,7 @@ if (isset($_GET['i'])) {
 $currentimage = '';
 $nextimage = '';
 $previousimage = '';
-$notes = '';
+$note = '';
 
 if (is_array($allimages)) {
 	foreach($allimages as $key=>$image){
