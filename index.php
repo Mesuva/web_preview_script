@@ -19,7 +19,7 @@ if ($autonamefromfolder && !$projecttitle) {
 }
 
 $images = glob($pathtoimages."*");
-$allimages = ''; 
+$allimages = array(); 
  
 foreach($images as $image){
 	$extension = pathinfo($image, PATHINFO_EXTENSION);
